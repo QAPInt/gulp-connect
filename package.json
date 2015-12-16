@@ -1,6 +1,6 @@
 {
   "name": "gulp-connect",
-  "version": "2.0.6",
+  "version": "2.2.0",
   "description": "Gulp plugin to run a webserver (with LiveReload)",
   "license": "MIT",
   "repository": {
@@ -37,10 +37,10 @@
     "server"
   ],
   "dependencies": {
-    "gulp-util": "~2.2.14",
+    "gulp-util": "^3.0.6",
     "event-stream": "~3.1.0",
-    "connect-livereload": "~0.3.2",
-    "tiny-lr": "git+https://github.com/QAPInt/tiny-lr.git",
+    "connect-livereload": "~0.5.4",
+    "tiny-lr": "^0.2.1",
     "connect": "<2.18.0"
   },
   "devDependencies": {
